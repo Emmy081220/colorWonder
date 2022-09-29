@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="119" height="129" viewBox="0 0 119 129">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffc900;
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="0.938" y="0.938" width="117.624" height="128.063" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="10" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g style="fill: #ffc900; filter: url(#filter)">
+    <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-1" d="M36.718,100.707c1.24,4.064,2.549,8.2,5.059,11.63s6.473,6.079,10.717,5.905a18.008,18.008,0,0,0,7.527-2.554c14.649-7.791,27.223-18.9,39.645-29.9,6.683-5.919,13.538-12.059,17.412-20.1a12.776,12.776,0,0,0,1.5-5.263c0.05-3.414-2.09-6.443-4.315-9.032-9.774-11.374-22.852-19.46-36.466-25.74S49.876,14.731,35.985,9.09c-7.335-2.979-14.634-6.261-22.418-7.7a15.844,15.844,0,0,0-8.115.147C-4.876,5.169,5.284,15.971,8.207,21.449A218.539,218.539,0,0,1,19.554,46.817C26.25,64.455,31.218,82.678,36.718,100.707Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Shape_1_copy" style="stroke: #000; filter: none; fill: none"/>
+</svg>
